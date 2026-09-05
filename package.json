@@ -33,11 +33,16 @@
     "./webpack": {
       "require": "./nativescript.webpack.js",
       "default": "./nativescript.webpack.js"
+    },
+    "./vite": {
+      "require": "./nativescript.vite.js",
+      "default": "./nativescript.vite.js"
     }
   },
   "files": [
     "dist",
     "nativescript.webpack.js",
+    "nativescript.vite.js",
     "!**/*.tsbuildinfo"
   ],
   "scripts": {
